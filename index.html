@@ -44,7 +44,7 @@
       <!-- Scroll Bar -->
       <div class="col-md-12 box box_border" id="slideshow_thmb">
         <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-pager=".example-pager">
-          <div class="box1">
+          <div class="slider_box">
             <div class="slider_thmb"><img src="images/banner_slider_01.jpg" style="width:100%;" /></div>
             <div class="slider_Content">
               <label style="font-size:2vw;">EXPERIENCE</label>
@@ -57,7 +57,7 @@
               </div></a>
             </div>
           </div>
-          <div class="box1">
+          <div class="slider_box">
             <div class="slider_thmb"><img src="images/banner_slider_02.jpg" style="width:100%;" /></div>
             <div class="slider_Content">
               <label style="font-size:2vw;">GROWTH</label>
@@ -71,7 +71,7 @@
               </div></a>
             </div>
           </div>
-          <div class="box1">
+          <div class="slider_box">
             <div class="slider_thmb"><img src="images/banner_slider_02.jpg" style="width:100%;" /></div>
             <div class="slider_Content">
               <label style="font-size:2vw;">CONNECTED LIFE</label>
@@ -86,7 +86,7 @@
         </div>
       </div>
 
-      <!-- The Connected Lifestyle -->
+      <!-- The Connected Lifestyle Section -->
       <div class="col-md-12 box box_border box_bar">
         <h4 class="text_color">THE CONNECTED LIFESTYLE</h4>
         <hr style="border:1px solid #74cc8b;" />
@@ -156,7 +156,7 @@
         </div>
       </div>
 
-      <!-- Our Customers -->
+      <!-- Our Customers section  -->
       <div class="col-md-12 box" id="CUSTOMERS">
         <div class="row">
           <div class="col-md-7">
@@ -195,6 +195,8 @@
           <div class="col-md-1">
 
           </div>
+
+          <!-- News Section -->
           <div class="col-md-4" id="NEWS+EVENTS">
             <h4 class="text_color">IN THE NEWS</h4>
             <hr style="border:1px solid #74cc8b;" />
@@ -227,7 +229,7 @@
 
       </div>
 
-      <!-- Photos & Videos -->
+      <!-- Photos & Videos section -->
       <div class="col-md-12 box box_border box_bar">
         <div class="row">
           <div class="col-md-6 box_videos">
@@ -316,7 +318,7 @@
     </div>
     </div>
   </section>
-  <!-- Footer  -->
+  <!-- Footer  section  -->
   <footer style="background:url('images/footer_bg.jpg')" id="ABOUT">
     <div class="footer_bar row">
       <div class="col-md-8">
@@ -344,7 +346,7 @@
       </div>
     </div>
   </footer>
-  <!-- Inline Content Gallery -->
+  <!--  Content Gallery for learn more button -->
   <div style="display: none;">
       <div class="learn_more_gallery">
         <h2>CONNECT</h2>
@@ -391,30 +393,7 @@
 
 
 </body>
-<script>
-
-  $(document).ready(function(){
-
-$('#customers,#growth,#connected_life,#experience,#lifestyle').on('click', function() {
-  $.fancybox.open( $('.learn_more_gallery'), {
-    touch: false,
-    infobar: false
-  });
-});
-$('#continue_reading_img,#continue_reading_video').on('click', function() {
-  $.fancybox.open( $('.continue_reading'), {
-    touch: false,
-    infobar: false
-  });
-});
-  $('.truncate_word').each(function (f) {
-
-      var newstr = $(this).text().substring(0,250);
-      $(this).text(newstr);
-
-    });
-})
-
+<script src= "js/custom.js">
 </script>
 <script src="js/jquery.fancybox.js"></script>
 
