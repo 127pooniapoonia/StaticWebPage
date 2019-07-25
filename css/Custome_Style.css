@@ -15,7 +15,23 @@ nav{
     box-shadow: 0px 0px 6px 6px grey;
     background-image: linear-gradient(to right, lightgrey,white,white,lightgrey,lightgrey,lightgrey,lightgrey,lightgrey) !important;
 }
-
+a{
+    text-decoration: none;
+    color:#74cc8b;
+}
+a:hover{
+    color: green;
+}
+.company_logo{
+    width:90%;
+    height:90%;
+}
+@media(max-width:772px){
+    .company_logo{
+        width:70%;
+        height:70%;
+    }  
+}
 .menubar{
   width:100%;
   text-align:center;
@@ -89,21 +105,28 @@ p{
     width:15vw;
 }
 #lifestyle_learn_more{
-    width:60%
+    width:60%;
+    vertical-align: middle;
 }
 .learn_more_thmb{
-    margin-right:10%;
+    margin-right:2%;
+    margin-top:3%;
     top:30%;
     right:10%;
+    vertical-align: middle;
     
 }
+img{
+  float:right;
+
+}
+
 .lifestyle_text{
     font-size:12px;;
 }
 .truncate_word{
     font-size:12px;;
     width: 100%;
-  height:70px; 
   overflow: hidden;
   text-overflow: clip; 
   word-break:break-all;
@@ -138,6 +161,6 @@ footer{
     color:lightgrey;
 }
 .footer_copyright{
-    float:right;
+    text-align:right;
     color:lightgrey;
 }
