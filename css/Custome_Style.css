@@ -1,0 +1,143 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    background: url(../images/main_bg.jpg) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+nav{
+    padding-left:10%;
+    padding-right:10%;
+    box-shadow: 0px 0px 6px 6px grey;
+    background-image: linear-gradient(to right, lightgrey,white,white,lightgrey,lightgrey,lightgrey,lightgrey,lightgrey) !important;
+}
+
+.menubar{
+  width:100%;
+  text-align:center;
+}
+section{
+    padding-left:10%;
+    padding-right:10%; 
+    word-wrap: break-word;
+}
+.slider_thmb{
+    width:67%;
+    height:100%;
+    float:left;
+}
+.slider_Content{
+    float:right;
+    width:30%;
+    height:100%;
+    padding-top:8%;
+    padding-right:2%;
+}
+#slideshow_thmb{
+    padding-left:0px !important;
+    padding-right:0px  !important;
+    background-color:#e2efe6;
+}
+.box{
+  margin-bottom:10px;
+  margin-top:10px;
+  clear:all;
+}
+p{
+    word-wrap: break-word;
+}
+.box1{
+    clear:all;
+    width:100%;
+    height:100%;
+  }
+.box_border{
+    border:1px solid lightgrey;
+}
+.box_bar{
+    padding:10px;
+    background-image: linear-gradient(white, #f9f9f9);
+}
+.box_videos{
+    padding-left:7% !important;
+    padding-right:7% !important;
+
+}
+.box_inside,.lifestyle_box {
+    border-right:0.5px solid lightgrey;
+}
+.lifestyle_box{
+    height:auto;
+    bottom:0;
+}
+.learn_more{
+    border:0.5px solid #74cc8b;
+    left:0 !important;
+    bottom:0 !important;
+    padding: 5px 8px 7px;
+    color:#74cc8b;
+    transition: background 200ms ease-in-out;
+    background-color:white;
+
+}
+#slider_learn_more{
+    font-size:1vw;
+    width:15vw;
+}
+#lifestyle_learn_more{
+    width:60%
+}
+.learn_more_thmb{
+    margin-right:10%;
+    top:30%;
+    right:10%;
+    
+}
+.lifestyle_text{
+    font-size:12px;;
+}
+.truncate_word{
+    font-size:12px;;
+    width: 100%;
+  height:70px; 
+  overflow: hidden;
+  text-overflow: clip; 
+  word-break:break-all;
+  -o-text-overflow:clip;
+
+}
+.lifestyle_thmb{
+    width:100%;
+    margin-bottom:2px;
+}
+.custmr_logo{
+    width:100%;
+    padding:2%;
+}
+.text_color_heading{
+    color:lightgrey;
+} 
+.text_color{
+    color:#74cc8b;
+} 
+  
+footer{
+    width:100%;
+    height:100px;
+    margin-bottom:0;
+}
+.footer_bar {
+    padding-left:10%;
+    padding-right:10%;
+}
+.footer_bar a{
+    color:lightgrey;
+}
+.footer_copyright{
+    float:right;
+    color:lightgrey;
+}
